@@ -1,0 +1,59 @@
+<resources>
+
+    <string name="app_name">MyInventoryApp</string>
+    <string name="delete_all_products">Delete All Products</string>
+
+    <string name="add_product">Add Product</string>
+    <string name="name_of_product">Product Name</string>
+    <string name="price_of_product">Price</string>
+    <string name="quantity_of_product">Quantity</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone_number">Supplier Phone Number</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="discard">Discard</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_IKEA">IKEA</string>
+    <string name="supplier_SHOPIFY">SHOPIFY</string>
+    <string name="supplier_HOMEDEPOT">HOME DEPOT</string>
+    <string name="product_currency">$</string>
+    <string name="product_editor">Product Editor</string>
+    <string name="edit_product">Edit Product</string>
+
+    <string name="product_view">Product Details</string>
+    <string name="delete_dialog_msg">Delete Product?</string>
+    <string name="quantity_change_msg">Quantity changed</string>
+    <string name="quantity_finish_msg">Product was finish </string>
+
+
+
+    <string name="action_save">Save</string>
+     <string name="ErrorMessage_product">Error while saving product</string>
+    <string name="ErrorMessageDATA">Cannot insert data in table</string>
+    <string name="ProductSave_Message">Product saved with row id:</string>
+    <string name="Succesful">insert data on table</string>
+    <string name="open">open Add Activity</string>
+
+
+    <string name="insert_failed">Error with saving product</string>
+    <string name="insert_successful">Product Added successfully</string>
+
+    <string name="update_failed">Error with updating product</string>
+    <string name="update_successful">Product updated successfully</string>
+
+
+    <string name="deleted_all_products_message">Product deleted </string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="delete_product_successful">Product deleted</string>
+    <string name="delete_product_failed">Error with deleting Product</string>
+
+    <string name="product_name_requires">Product name requires</string>
+    <string name="filed_requires">please fill all filed form to insert an new product</string>
+    <string name="price_requires">Product price requires</string>
+    <string name="quantity_requires">Product quantity requires</string>
+    <string name="supplier_name_requires">Supplier Name requires select anything without unknown selection</string>
+    <string name="supplier_phone_requires">Supplier Phone requires</string>
+
+</resources>

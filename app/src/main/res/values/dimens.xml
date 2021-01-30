@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="activity_margin">16dp</dimen>
+
+    <dimen name="textSize">12sp</dimen>
+    <dimen name="weight">1</dimen>
+    <dimen name="width">0dp</dimen>
+
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="list_item_textview_Right">8dp</dimen>
+    <dimen name="list_item_linearlayout_Left">8dp</dimen>
+</resources>

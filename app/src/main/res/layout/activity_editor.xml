@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.shilpa.inventoryapp.EditorActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/product_editor"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <LinearLayout style="@style/ActivityEditorLinearLayoutsection1">
+
+        <TextView
+            style="@style/ProductAddStyle"
+            android:text="@string/name_of_product" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/product_name_edit_text"
+                style="@style/ProductAddStyle1"
+                android:hint="@string/name_of_product"
+                android:inputType="textCapWords" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ActivityEditorLinearLayoutsection1">
+
+
+        <TextView
+            style="@style/ProductAddStyle"
+            android:text="@string/price_of_product" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/product_price_edit_text"
+                style="@style/ProductAddStyle1"
+                android:hint="@string/price_of_product"
+                android:inputType="number" />
+
+            <TextView
+                style="@style/dollarStyle"
+                android:text="@string/price_of_product" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ActivityEditorLinearLayoutsection1">
+
+
+        <TextView
+            style="@style/ProductAddStyle"
+            android:text="@string/quantity_of_product" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/product_quantity_edit_text"
+                style="@style/ProductAddStyle1"
+                android:hint="@string/quantity_of_product"
+                android:inputType="number" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ActivityEditorLinearLayoutsection1">
+
+
+        <TextView
+            style="@style/ProductAddStyle"
+            android:text="@string/supplier_name" />
+
+        <Spinner
+            android:id="@+id/product_supplier_name_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:paddingRight="16dp"
+            android:spinnerMode="dropdown" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ActivityEditorLinearLayoutsection1">
+
+        <TextView
+            style="@style/ProductAddStyle"
+            android:text="@string/supplier_phone_number" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/product_supplier_phone_number_edit_text"
+                style="@style/ProductAddStyle1"
+                android:hint="@string/supplier_phone_number"
+                android:inputType="number" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
